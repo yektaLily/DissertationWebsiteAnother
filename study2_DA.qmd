@@ -756,7 +756,7 @@ dim(ds)
 ### EXPLORING DATA 
  
 ```{r chunk_2DA_4119}
-psych::describe(ds, type = 2) %>% dplyr::select(n, mean, sd, median, min, max)
+psych::describe(ds, type = 2)
 ```
 
 Seems like it's kind of rare for those that use m-banking to have lower MH scores.
